@@ -44,3 +44,44 @@ Although individuals may have access to this information, they may not have a un
 - Ask questions about their financial information in a simple, natural-language manner
 
 Personal Finance Intelligence aims to address these challenges by providing a centralized platform for financial data management, analysis, and intelligent information retrieval.
+
+
+## 2. Goals and Objectives
+
+### 2.1 Product Goals
+The primary goals of Personal Finance Intelligence are:
+- **G-01: Consolidated Financial Overview.** Provide users with a centralized view of their personal financial accounts and transactions through a unified dashboard.
+
+- **G-02: Financial Visibility and Analysis.** Help users understand their income, expenses, spending categories, and financial activity over time.
+
+- **G-03: Budget and Goal Tracking.** Enable users to create budgets, define savings goals, and monitor their progress using available financial data.
+
+- **G-04: Financial Document Understanding.** Enable users to find and understand relevant information within uploaded financial documents, including account statements, fee schedules, and account agreements.
+
+- **G-05: AI-Powered Financial Insights.** Provide a conversational interface that answers supported questions about users' financial data and documents using relevant evidence and clearly communicating limitations.
+
+- **G-06: Privacy, Security, and Reliability.** Protect users' financial information, restrict access to authorized users, and ensure that financial calculations and displayed information are reliable.
+
+### 2.2 Initial Success Creteria
+The initial product should demonstrate that:
+
+- Users can create and manage multiple financial accounts and their associated transactions.
+
+- Users can import transaction data from supported CSV files.
+
+- Users can view income, expenses, and spending summaries for a selected period.
+
+- Users can create budgets and savings goals and monitor their progress.
+
+- Financial summaries are consistent with the underlying transaction data and documented calculation rules.
+
+- Each user can access only the financial information they are authorized to access.
+
+Document upload, AI-powered financial-data questions, and Retrieval-Augmented Generation (RAG) are planned for later development phases. These capabilities should provide answers grounded in relevant financial data or document sources.
+
+### 2.3 Product Priorities
+The initial development effort will prioritize a complete and reliable financial data management experience, including accounts, transactions, CSV import, analytics, budgets, and savings goals.
+
+Advanced document intelligence and AI-powered interactions will be developed after the core financial workflows are established.
+
+Security, data validation, testing, and appropriate error handling are essential throughout development and are not optional future enhancements.
