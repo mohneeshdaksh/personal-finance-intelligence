@@ -46,6 +46,7 @@ Although individuals may have access to this information, they may not have a un
 Personal Finance Intelligence aims to address these challenges by providing a centralized platform for financial data management, analysis, and intelligent information retrieval.
 
 
+
 ## 2. Goals and Objectives
 
 ### 2.1 Product Goals
@@ -85,3 +86,65 @@ The initial development effort will prioritize a complete and reliable financial
 Advanced document intelligence and AI-powered interactions will be developed after the core financial workflows are established.
 
 Security, data validation, testing, and appropriate error handling are essential throughout development and are not optional future enhancements.
+
+
+
+## 3. Scope
+
+### 3.1 In Scope
+
+The initial version of Personal Finance Intelligence will focus on helping users organize and understand their personal financial information.
+
+The following capabilities are included in the planned product scope:
+
+- **Financial Account Management:** Allow users to create, view, update, and manage records for financial accounts, such as checking accounts, savings accounts, credit cards, and investment accounts.
+
+- **Transaction Management:** Allow users to record, view, update, categorize, and filter financial transactions associated with their accounts.
+
+- **CSV Transaction Import:** Allow users to import transaction data from supported CSV files, with validation and appropriate handling of invalid or duplicate records.
+
+- **Financial Dashboard:** Provide a consolidated overview of financial information, including account summaries, income, expenses, and recent transactions.
+
+- **Spending and Income Analytics:** Provide summaries and trends across selected time periods and spending categories.
+
+- **Budget Management:** Allow users to define budgets for spending categories and monitor their spending against those budgets.
+
+- **Savings Goal Tracking:** Allow users to define savings goals, track progress, and understand the amount they need to save to reach a goal.
+
+- **Data Security and Access Control:** Protect financial information through authentication, authorization, and appropriate user-level data isolation.
+
+- **Testing and Reliability:** Include automated tests, input validation, error handling, and documented calculation rules to help ensure the application behaves reliably.
+
+### 3.2 Out of Scope for the Initial Release
+
+The following capabilities will not be implemented in the initial release:
+
+- **Direct Bank Integrations:** Automatically connecting to banks, credit card providers, or brokerage platforms to retrieve financial data.
+
+- **Financial Transactions and Payments:** Transferring money, paying bills, initiating payments, or moving funds between accounts.
+
+- **Investment Execution:** Buying, selling, or trading stocks, funds, cryptocurrencies, or other investment products.
+
+- **Tax Preparation and Filing:** Preparing tax returns, submitting tax filings, or providing tax advice.
+
+- **Professional Financial Advice:** Providing personalized investment recommendations or acting as a substitute for a qualified financial professional.
+
+These exclusions may be reconsidered in future versions if they align with the product's goals and can be implemented safely and appropriately.
+
+### 3.3 Future Enhancements
+
+After the core financial management capabilities are established, the following enhancements may be considered:
+
+- **Financial Document Management:** Allow users to upload and organize financial documents, such as account statements, account agreements, and fee schedules.
+
+- **Document Search and Retrieval:** Extract text from supported documents and retrieve relevant passages in response to user queries.
+
+- **AI-Powered Financial Questions:** Allow users to ask questions about their financial data using natural language.
+
+- **Retrieval-Augmented Generation (RAG):** Ground document-related AI responses in relevant passages from uploaded documents and provide source references where possible.
+
+- **Combined Financial Intelligence:** Support questions that require both structured financial analysis and information retrieved from financial documents.
+
+- **Advanced Insights:** Explore additional spending patterns, unusual transactions, and other explainable financial trends.
+
+Future enhancements will be prioritized after evaluating the completeness, reliability, and usefulness of the core product.
