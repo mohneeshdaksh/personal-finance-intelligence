@@ -208,3 +208,17 @@ The initial release will focus on account management, transaction management, CS
 - **FR-015 — Account Validation:** The system shall validate required account information and reject invalid values.
 - **FR-016 — Account Currency:** The system shall record the currency associated with each financial account so that financial amounts can be interpreted correctly.
 
+### 5.3 Transaction Management and Categorization
+
+- **FR-017 — Create Transaction:** The system shall allow an authenticated user to record a financial transaction associated with one of their financial accounts.
+- **FR-018 — Transaction Details:** The system shall support recording the information required to describe a transaction, including its amount, date, description, and transaction type.
+- **FR-019 — View Transactions:** The system shall allow users to view their own transactions and the relevant details of each transaction.
+- **FR-020 — Update Transaction:** The system shall allow users to update permitted details of their own transactions.
+- **FR-021 — Delete Transaction:** The system shall allow users to delete their own transactions, subject to the application's data-integrity rules.
+- **FR-022 — Transaction Categorization:** The system shall allow users to assign and update categories for their transactions.
+- **FR-023 — Transaction Filtering:** The system shall allow users to filter transactions by date range, financial account, category, and transaction type.
+- **FR-024 — Transaction Validation:** The system shall validate required transaction fields and reject invalid amounts, dates, or other required values.
+- **FR-025 — Transaction Ownership:** The system shall ensure that users can view and modify only transactions they are authorized to access.
+- **FR-026 — Account Association:** The system shall ensure that each transaction is associated with a valid financial account that the user is authorized to use.
+- **FR-027 — Transfer Classification:** The system shall support identifying transfers between a user's own financial accounts so that these transfers are not incorrectly counted as income or expenses in overall financial summaries.
+
