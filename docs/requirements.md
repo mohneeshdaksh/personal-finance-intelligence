@@ -196,3 +196,15 @@ The initial release will focus on account management, transaction management, CS
 - **FR-006 — Access Enforcement:** The system shall enforce authorization checks on protected operations, including requests that reference specific record identifiers.
 - **FR-007 — Secure Credential Handling:** The system shall not store user passwords in plaintext.
 - **FR-008 — Session and Token Handling:** The system shall handle authentication sessions or tokens according to the application's security design, including appropriate expiration and invalidation behavior where applicable.
+
+### 5.2 Financial Account Management
+
+- **FR-009 — Create Account:** The system shall allow an authenticated user to create a financial account by providing the required account information.
+- **FR-010 — Supported Account Types:** The system shall support checking, savings, credit card, and investment accounts.
+- **FR-011 — View Accounts:** The system shall allow users to view a list of their financial accounts and the relevant details of each account.
+- **FR-012 — Update Account:** The system shall allow users to update permitted details of their own financial accounts.
+- **FR-013 — Account Status:** The system shall allow users to mark their financial accounts as inactive without automatically removing their associated transaction history.
+- **FR-014 — Account Data Isolation:** The system shall ensure that users can view and modify only financial accounts they are authorized to access.
+- **FR-015 — Account Validation:** The system shall validate required account information and reject invalid values.
+- **FR-016 — Account Currency:** The system shall record the currency associated with each financial account so that financial amounts can be interpreted correctly.
+
