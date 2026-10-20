@@ -182,3 +182,17 @@ The following user stories are planned for future development and are not requir
 User stories will be prioritized according to the planned development phases.
 
 The initial release will focus on account management, transaction management, CSV imports, dashboard and analytics, budgets, savings goals, and security. Document intelligence and AI-related stories will be addressed after the core financial workflows are implemented and tested.
+
+
+## 5. Functional Requirements
+
+### 5.1 User Registration, Authentication, and Access Control
+
+- **FR-001 — User Registration:** The system shall allow a new user to register using the required account credentials.
+- **FR-002 — User Authentication:** The system shall allow registered users to authenticate before accessing protected financial data.
+- **FR-003 — Authentication Failure:** The system shall reject invalid authentication attempts without disclosing sensitive account information.
+- **FR-004 — Protected Access:** The system shall restrict protected application operations to authenticated users with the required permissions.
+- **FR-005 — User Data Isolation:** The system shall ensure that users can access and modify only financial records they are authorized to access.
+- **FR-006 — Access Enforcement:** The system shall enforce authorization checks on protected operations, including requests that reference specific record identifiers.
+- **FR-007 — Secure Credential Handling:** The system shall not store user passwords in plaintext.
+- **FR-008 — Session and Token Handling:** The system shall handle authentication sessions or tokens according to the application's security design, including appropriate expiration and invalidation behavior where applicable.
